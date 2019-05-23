@@ -19,26 +19,22 @@ public class Main {
 //		l.useHashCode();
 //		l.useRetainAll();
 //		l.useContainsAll();
-		
-		String num1 = "123.123";
-		String num2 = "123123";
-		System.out.println(chcStr(num1));
-		System.out.println(chcStr(num2));
+		MapExam m = new MapExam();
+		m.useCompute();
+//		m.useComputeIfPresent();
+//		m.useComputeIfAbsent();
+//		m.useEntrySetMethod();
+//		m.howToUseKeyAndValue();
+//		m.useForEach();
+//		m.useGetAndGetOrDefault();
+//		m.useKeySet();
+//		m.useMerge();
+//		m.usePut();
+//		m.usePutIfAbsent();
+//		m.useRemove();
+//		m.useReplace();
+//		m.useReplaceAll();
+//		m.useValues();
 		
 	}	
-	
-	static boolean chcStr(String str) {
-		boolean result = false;
-		
-		for(int i = 0 ; i < str.length() ; i++) {
-			if(str.charAt(i) >= '0' && str.charAt(i) <= '9') {
-				result = true;
-			} else {
-				result = false;
-				break;
-			}
-		}
-		
-		return result;
-	}
 }
