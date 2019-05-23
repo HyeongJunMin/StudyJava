@@ -19,8 +19,8 @@ public class Main {
 //		l.useHashCode();
 //		l.useRetainAll();
 //		l.useContainsAll();
-		MapExam m = new MapExam();
-		m.useCompute();
+//		MapExam m = new MapExam();
+//		m.useCompute();
 //		m.useComputeIfPresent();
 //		m.useComputeIfAbsent();
 //		m.useEntrySetMethod();
@@ -35,6 +35,14 @@ public class Main {
 //		m.useReplace();
 //		m.useReplaceAll();
 //		m.useValues();
-		
+		SetExam s = new SetExam();
+//		s.setToArray();
+//		s.handleElementsInSet();
+//		s.useAdd();
+//		s.useAddAll();
+//		s.useContainsAll();
+//		s.useRemoveAll();
+//		s.useRetainAll();
+
 	}	
 }
