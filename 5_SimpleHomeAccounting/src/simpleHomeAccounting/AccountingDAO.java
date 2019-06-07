@@ -115,6 +115,7 @@ public class AccountingDAO {
 				day = rs.getInt(3);
 				income = rs.getInt(4);
 				spending = rs.getInt(5);
+			
 				lst.add(new AccountingVO(year, month, day, income, spending));
 			}
 			count = lst.size();
