@@ -15,7 +15,7 @@ public class SendMail {
 
 		String host = "smtp.naver.com";
 		final String user = "alsgudwns007";
-		final String password = "dywjdalrud";
+		final String password = "*******";
 
 		String to = "zionadd@naver.com";
 //		String to = "01068889859@hanmail.net";
